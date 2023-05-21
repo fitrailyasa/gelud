@@ -10,7 +10,7 @@ Pengguna akan mengendalikan sebuah avatar dengan gerakan dasar (kiri dan kanan) 
 
 Mengingat kendala waktu, hanya fitur dasar yang telah diterapkan. Layar mulai/ulang telah diterapkan dengan kontrol untuk mengaktifkan/menonaktifkan soundtrack latar belakang, dan tampilan bantuan modal untuk menampilkan kontrol dan kredit. Setelah mengklik, pengguna memulai permainan dengan dua avatar berhadapan satu sama lain dengan batas waktu 120 detik untuk mengalahkan satu sama lain. Jika tidak, permainan akan habis waktu dan menghasilkan seri.
 
-![start](https://github.com/fitrailyasa/gelud/blob/main/docs/images/thumb_gelud.jpg)
+![start](https://github.com/fitrailyasa/gelud/blob/main/docs/images/thumb_gelud.png)
 
 Gameplay sebenarnya terbatas pada meninju saja, dan kedua sprite dibuat menggunakan karakter diri sendiri. Kontrol untuk 2 pemain, secara lokal, pada keyboard berukuran penuh dengan numpad. Melompat, menganggur, berjalan, dan menyerang memiliki animasi yang unik.
 
