@@ -763,6 +763,17 @@ class Arena {
       switch (this.winner) {
         case null:
           this.ctx.font = '56px Trebuchet MS';
+          this.ctx.strokeStyle = 'white'; // Warna outline putih
+          this.ctx.lineWidth = 2; // Ketebalan outline
+      
+          // Menggambar outline putih
+          this.ctx.strokeText(
+            'Mainkan Sekarang!',
+            this.dimensions.width / 2,
+            this.dimensions.height / 2 + 72
+          );
+      
+          this.ctx.fillStyle = 'black'; // Warna teks utama
           this.ctx.fillText(
             'Mainkan Sekarang!',
             this.dimensions.width / 2,
@@ -771,33 +782,80 @@ class Arena {
           break;
         case 'timeUp':
           this.ctx.font = '36px Trebuchet MS';
+          this.ctx.strokeStyle = 'white'; // Warna outline putih
+          this.ctx.lineWidth = 2; // Ketebalan outline
+      
+          // Menggambar outline putih
+          this.ctx.strokeText(
+            'Waktu habis... sudahkah kamu mencoba menyerang?',
+            this.dimensions.width / 2,
+            this.dimensions.height / 2 + 12
+          );
+      
+          this.ctx.fillStyle = 'black'; // Warna teks utama
           this.ctx.fillText(
             'Waktu habis... sudahkah kamu mencoba menyerang?',
             this.dimensions.width / 2,
             this.dimensions.height / 2 + 12
           );
+      
           this.ctx.font = '56px Trebuchet MS';
+          this.ctx.strokeStyle = 'white'; // Warna outline putih
+          this.ctx.lineWidth = 2; // Ketebalan outline
+      
+          // Menggambar outline putih
+          this.ctx.strokeText(
+            'Main lagi?',
+            this.dimensions.width / 2,
+            this.dimensions.height / 2 + 72
+          );
+      
+          this.ctx.fillStyle = 'black'; // Warna teks utama
           this.ctx.fillText(
-            'Main Lagi?',
+            'Main lagi?',
             this.dimensions.width / 2,
             this.dimensions.height / 2 + 72
           );
           break;
         default:
           this.ctx.font = '36px Trebuchet MS';
+          this.ctx.strokeStyle = 'white'; // Warna outline putih
+          this.ctx.lineWidth = 2; // Ketebalan outline
+      
+          // Menggambar outline putih
+          this.ctx.strokeText(
+            `Selamat, ${this.winner} menang!`,
+            this.dimensions.width / 2,
+            this.dimensions.height / 2 + 8
+          );
+      
+          this.ctx.fillStyle = 'black'; // Warna teks utama
           this.ctx.fillText(
             `Selamat, ${this.winner} menang!`,
             this.dimensions.width / 2,
             this.dimensions.height / 2 + 8
           );
+      
           this.ctx.font = '56px Trebuchet MS';
+          this.ctx.strokeStyle = 'white'; // Warna outline putih
+          this.ctx.lineWidth = 2; // Ketebalan outline
+      
+          // Menggambar outline putih
+          this.ctx.strokeText(
+            'Main lagi?',
+            this.dimensions.width / 2,
+            this.dimensions.height / 2 + 72
+          );
+      
+          this.ctx.fillStyle = 'black'; // Warna teks utama
           this.ctx.fillText(
-            'Main Lagi?',
+            'Main lagi?',
             this.dimensions.width / 2,
             this.dimensions.height / 2 + 72
           );
           break;
       }
+      
     };
     
   }
