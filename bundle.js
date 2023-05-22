@@ -754,9 +754,9 @@ class Arena {
         this.ctx.drawImage(
           header, 
           20, 
-          this.dimensions.height / 2 - 100, 
+          this.dimensions.height / 4 - 100, 
           this.dimensions.width - 40, 
-          56
+          200
         );
       }
   
